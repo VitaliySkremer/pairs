@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пары</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div id="main__menu" class="main__menu">
+      <h1 class="name__game title">
+        Игра <span class="name__game-title">"ПАРЫ"</span> и точка
+      </h1>
+      <p class="settings__desc">Кол-во карточек по вертикали/горизонтали</p>
+      <input id="setings__input" type="text" class="setings__input" placeholder="Введите размер поля (чётное число)">
+      <button id="start__game" class="start__game btn">Начать игру!</button>
+    </div>
+
+    <div id="panel__game" class="panel__game"></div>
+
+    <div id="game__over" class="game__over hide">
+      <h2 id="game__over-title" class="game__over-title title"></h2>
+      <button class="restart__game btn">Начать заного</button>
+    </div>
+  </div>
+</body>
+
+</html>
